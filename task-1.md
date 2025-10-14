@@ -23,15 +23,12 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
      ```
 ![Nmap Install Screenshot](https://raw.githubusercontent.com/Shristi625/task1/main/img1.png)
 
-
-
-    
-
-
 2. Find Your Local IP Range
    - On Windows: `ipconfig`  
    - On Linux/macOS: `ip addr` or `ifconfig`  
    - Identify your network’s IP range (example: `192.168.1.0/24`).
+    ![Screenshot 2](https://raw.githubusercontent.com/Shristi625/task1/main/img2.png)
+
 
 3. Perform a TCP SYN Scan
    - Open a terminal or command prompt.
