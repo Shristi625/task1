@@ -34,7 +34,7 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
    - Open a terminal or command prompt.
    - Run:
      ```bash
-     sudo nmap -sS 192.168.1.0/24 -oN task1.txt
+     sudo nmap -sS 192.168.1.67 -oS task1.txt
      ```
    - The `-sS` flag specifies a stealthy TCP SYN scan.
      ![Screenshot 3](https://raw.githubusercontent.com/Shristi625/task1/main/img3.png)
