@@ -21,7 +21,8 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
      ```bash
      nmap --version
      ```
-https://raw.githubusercontent.com/Shristi625/task1/main/img1.png
+![Nmap Install Screenshot](https://raw.githubusercontent.com/Shristi625/task1/main/img1.png)
+
 
 
     
