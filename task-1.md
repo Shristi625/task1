@@ -87,7 +87,3 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
 - A text or HTML file containing your scan results (e.g., `scan_results.txt`, `scan_results.html`).  
 - A brief summary (in a separate `.md` or `.txt` file) of the services found and potential risks.
 
-## Next Steps
-- Explore additional Nmap features, such as service/version detection with `-sV`.  
-- Use Wireshark to analyze specific services in detail.  
-- Research how to secure open ports (e.g., firewall configurations).
