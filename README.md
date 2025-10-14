@@ -2,7 +2,6 @@
 # Cyber Security Task 1 — Local Network Port Scan
 
 **Date of scan:** 2025-10-14  
-**Author:** Shristi Gupta
 
 ## Objective
 Scan the local network to discover open ports, identify running services, and evaluate potential security risks.
@@ -25,7 +24,7 @@ I ran the following Nmap commands to produce the outputs included in this reposi
 
 ```bash
 # Top 100 common ports across the subnet (saved to subnet_top.txt)
-sudo nmap -sS --top-ports 100 192.168.1.0/24 -oN subnet_top.txt
+sudo nmap -sS --top-ports 100 192.168.1.0/24 -oN task1.txt
 
 # Detailed scan for a host of interest (version detection + default scripts)
 sudo nmap -sS -sV -sC 192.168.1.67 -oN 192.168.1.67_detailed.txt
@@ -105,5 +104,4 @@ sudo iptables -A INPUT -j DROP
 
 ## References
 - Nmap documentation — https://nmap.org/book/man.html  
-- IANA Port Assignments — https://www.iana.org/assignments/port-numbers/port-numbers.xhtml  
 - Wireshark documentation — https://www.wireshark.org/docs/
