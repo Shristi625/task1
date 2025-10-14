@@ -21,7 +21,7 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
      ```bash
      nmap --version
      ```
-![Nmap Install Screenshot](https://raw.githubusercontent.com/Shristi625/task1/main/img1.png)
+   ![Nmap Install Screenshot](https://raw.githubusercontent.com/Shristi625/task1/main/img1.png)
 
 2. Find Your Local IP Range
    - On Windows: `ipconfig`  
@@ -37,6 +37,8 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
      sudo nmap -sS 192.168.1.0/24 -oN task1.txt
      ```
    - The `-sS` flag specifies a stealthy TCP SYN scan.
+     ![Screenshot 3](https://raw.githubusercontent.com/Shristi625/task1/main/img3.png)
+
 
 4. Record Results
    - Note down the IP addresses and open ports discovered by Nmap.
