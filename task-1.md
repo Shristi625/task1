@@ -21,7 +21,7 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
      ```bash
      nmap --version
      ```
-    ![Nmap Install Screenshot](https://raw.githubusercontent.com/Shristi625/task1/main/img1.png)
+      ![Nmap Install Screenshot](https://raw.githubusercontent.com/Shristi625/task1/main/img1.png)
 
 2. Find Your Local IP Range
    - On Windows: `ipconfig`  
@@ -54,6 +54,8 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
 5. Optional: Analyze with Wireshark
    - Launch Wireshark and capture packets on your network interface.
    - Filter for specific IPs or ports found in the Nmap scan to inspect traffic.
+     ![Screenshot 5](https://raw.githubusercontent.com/Shristi625/task1/main/img5.png)
+
 
 6. Research Common Services
    - Use resources like IANA’s port assignments to identify services running on open ports (e.g., port 80 for HTTP).
