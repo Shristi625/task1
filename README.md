@@ -31,4 +31,3 @@ sudo nmap -sS -sV -sC 192.168.1.67 -oN 192.168.1.67_detailed.txt
 # XML output for conversion to HTML report (optional)
 sudo nmap -sS 192.168.1.67 -oX 192.168.1.67.xml
 xsltproc 192.168.1.67.xml -o 192.168.1.67.html
-https://github.com/Shristi625/task1/blob/main/img1.png?raw=true
