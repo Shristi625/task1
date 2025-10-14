@@ -21,6 +21,8 @@ Follow these steps to perform a TCP SYN scan and analyze the results:
      ```bash
      nmap --version
      ```
+     ![Uploading image.png…]()
+
 
 2. Find Your Local IP Range
    - On Windows: `ipconfig`  
